@@ -64,3 +64,28 @@ button,
 .button:hover {
   background: #244b32;
 }
+.content-box {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+.page-header {
+  background: #2f4a39;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.page-header h1 {
+  margin: 0;
+  color: white;
+}
+
+main {
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 20px;
+}
