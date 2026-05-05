@@ -31,7 +31,7 @@
 
     header p {
       font-size: 20px;
-      max-width: 800px;
+      max-width: 850px;
       margin: auto;
     }
 
@@ -41,6 +41,7 @@
       padding: 14px;
       position: sticky;
       top: 0;
+      z-index: 10;
     }
 
     nav a {
@@ -88,15 +89,23 @@
       color: #18351f;
     }
 
-    .button {
+    .button, .call-button {
       display: inline-block;
-      background: #2f573d;
       color: white;
       padding: 13px 24px;
       border-radius: 6px;
       text-decoration: none;
       font-weight: bold;
-      margin-top: 15px;
+      margin-top: 18px;
+    }
+
+    .button {
+      background: #2f573d;
+    }
+
+    .call-button {
+      background: #3f7a4f;
+      font-size: 18px;
     }
 
     .contact {
@@ -156,7 +165,7 @@
   <header>
     <h1>North Coast Permitting and Land Services, LLC</h1>
     <p>CEQA Support • Major Use Permits • Building Permits • Land Use & Project Feasibility</p>
-    <a class="button" href="#contact">Request a Consultation</a>
+    <a class="call-button" href="tel:17073151764">Call Now: (707) 315-1764</a>
   </header>
 
   <nav>
@@ -239,9 +248,19 @@
     <div class="box">
       <h2>Why Work With Us?</h2>
       <p>
-        Permitting can be slow, confusing, and expensive when not managed correctly.
-        Our goal is to help clients understand what is required, organize the right
-        information, communicate clearly with agencies, and keep projects moving.
+        Permitting can be slow, confusing, and expensive when it is not managed correctly.
+        We help clients understand what is required, identify the right path forward,
+        organize the necessary information, and communicate clearly with agencies.
+      </p>
+      <p>
+        Our approach is practical and direct. We help evaluate what can realistically be
+        permitted, what approvals may be required, and what steps are needed to move a
+        project forward.
+      </p>
+      <p>
+        Whether you are planning a rural property improvement, agricultural project,
+        commercial use, or development proposal, we provide hands-on support from the
+        early planning stage through agency coordination.
       </p>
     </div>
   </section>
@@ -249,7 +268,20 @@
   <section id="contact" class="contact">
     <h2>Contact</h2>
     <p><strong>North Coast Permitting and Land Services, LLC</strong></p>
-    <p>Email: <a href="mailto:rick@ncplsllc.com">rick@ncplsllc.com</a></p>
+
+    <p>
+      <strong>Phone:</strong>
+      <a href="tel:17073151764">(707) 315-1764</a>
+    </p>
+
+    <p>
+      <strong>Rick:</strong>
+      <a href="mailto:rick@ncplsllc.com">rick@ncplsllc.com</a><br>
+
+      <strong>Mike:</strong>
+      <a href="mailto:mike@ncplsllc.com">mike@ncplsllc.com</a>
+    </p>
+
     <p>Serving Lake County and Northern California</p>
 
     <form action="mailto:rick@ncplsllc.com" method="post" enctype="text/plain">
