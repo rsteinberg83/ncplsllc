@@ -376,3 +376,9 @@ button[type="submit"]:hover {
     height: 320px;
   }
 }
+.logo {
+  text-decoration: none;
+  color: #dfe7df;
+  font-size: 20px;
+  font-weight: 700;
+}
