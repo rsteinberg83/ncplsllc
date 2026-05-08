@@ -388,3 +388,15 @@ button[type="submit"]:hover {
   font-size: 20px;
   font-weight: 700;
 }
+.logo-area {
+  text-align: center;
+  margin-bottom: 14px;
+}
+
+.logo {
+  text-decoration: none;
+  color: #1f2d24;
+  font-size: 28px;
+  font-weight: 700;
+  display: inline-block;
+}
